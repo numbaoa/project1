@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Sigvar Serial";
+    src: url('Sigvar-Serial-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('proximanova_regular.ttf') format('truetype');
+}
+body {
+    background-color: #000539;
+    color: white;
+
+}
+h1 {
+    font-size: 48px;
+    font-family: 'Sigvar Serial';
+    position:fixed;
+    left: 50%;
+    top:25%;
+    margin-left: -105.5px;
+    margin-top: -95px;
+}
+label {
+    font-family: 'Sigvar Serial';
+    font-size: 40px;
+}
+
+.back_arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.contact-me {
+    background: #c8a96d;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 250px auto;
+}
+
+.contact-me label {
+    display: block;
+    color: white;
+    font-family: 'Sigvar Serial', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact-me input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #e8d7b4;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 64px;
+    padding: 5px 0;
+    outline: none;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.contact-me input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#add-directory {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto 0;
+    padding: 15px 0;
+    background: #D6A235;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

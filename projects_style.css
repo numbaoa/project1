@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Sigvar Serial";
+    src: url('Sigvar-Serial-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('proximanova_regular.ttf') format('truetype');
+}
+body {
+    background-color: #000539;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.back_arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.projects-title {
+    font-size: 48px;
+    font-family: 'Sigvar Serial';
+    margin: 40px 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 390px;
+    background-color: #d5b470;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.project-title {
+    font-size: 32px;
+    margin: 20px 0 10px 0;
+    font-family: 'Sigvar Serial';
+}
+
+.project-description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.download-resume {
+    display: inline-block;
+    background-color: #d5b470;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
